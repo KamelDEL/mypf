@@ -544,7 +544,6 @@ img {
     bottom: 15%;
   }
   .about__container {
-    -ms-grid-columns: (1fr) [2];
     grid-template-columns: repeat(2, 1fr);
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -555,7 +554,6 @@ img {
     width: 300px;
   }
   .skills__container {
-    -ms-grid-columns: (1fr) [2];
     grid-template-columns: repeat(2, 1fr);
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -563,9 +561,7 @@ img {
     text-align: initial;
   }
   .work__container {
-    -ms-grid-columns: (1fr) [3];
     grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: (1fr) [2];
     grid-template-rows: repeat(2, 1fr);
     -webkit-column-gap: 2rem;
     column-gap: 2rem;
